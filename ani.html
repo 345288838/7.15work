@@ -65,8 +65,8 @@
         var btns=document.querySelectorAll(".nav span");
         var imgs=document.querySelectorAll(".container-swiper a");
         for(let i=0;i<btns.length;i++){
-            num=i;
             btns[i].onclick=function(){
+                num=i;
                 for(var j=0;j<btns.length;j++){
                     imgs[j].style.display="none";
                     btns[j].style.background="rgba(255,255, 255, 1)";
@@ -92,9 +92,6 @@
                 btns[num].style.background="#2691fd";
                 btns[num].style.opacity="1";
         },5000)
-        function aanimate(){
-            var
-        }
     </script>
 </body>
 </html>
